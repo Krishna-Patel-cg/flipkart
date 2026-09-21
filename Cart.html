@@ -1,91 +1,87 @@
- <!-- Flipkart Login Page -->
+<!-- Flipkart Login Page -->
 
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <style>
-        .btn{
-            background-color:yellow ;
-        }
-        .btn:hover{
-           color: aliceblue;
-            background-color: red;
-        }
-    </style>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Login Page</title>
+     <style>
+          .btn {
+               background-color: yellow;
+          }
+
+          .btn:hover {
+               color: aliceblue;
+               background-color: red;
+          }
+     </style>
 </head>
+
 <body style="background-color: rgb(196, 145, 82);">
 
-     
- <h1 align="center" style="background-color: white;">Welcome To Login Page </h1>
+
+     <h1 align="center" style="background-color: white;">Welcome To Login Page </h1>
+
+     <form action="">
+          <div
+               style="background-image: linear-gradient(rgb(194, 149, 14), white);margin: auto;border: 1px solid black;padding-top: 0px;height: 400px;width: 50%;">
+
+               <h2 align="center">Login Here !!</h2>
+
+               <label style="font-size: larger;margin-left: 180px;margin-top: 30px;" for="name">Name : </label>
+               <input placeholder="Enter your name :" type="text" name="" id="name">
+
+               <br><br>
+
+               <label style="font-size: larger;margin-left: 180px;margin-top: 30px;" for="email">Email : </label>
+               <input placeholder="Enter your Email :" type="email" name="" id="email">
+
+               <br><br>
+
+               <label style="font-size: larger;margin-left: 180px;margin-top: 30px;" for="password">Password : </label>
+               <input placeholder="Enter your Email :" type="password" name="" id="password">
+
+               <br><br>
+
+               <label style="font-size: larger;margin-left: 180px;margin-top: 30px;" for="password">Mob no : </label>
+               <input placeholder="Enter your Mob no :" type="number" name="" id="password">
+
+               <br><br>
+
+               <label style="font-size: larger;margin-left: 180px;margin-top: 30px;">Gender : </label><br>
+
+               <label style="font-size: larger;margin-left: 220px;margin-top: 30px;" for="Gender">Male</label>
+               <input placeholder="Enter your Mob no :" type="radio" name="gen" id="Gender">
+
+               <label style="font-size: larger;margin-left: 8px;margin-top: 30px;" for="female">Female</label>
+               <input placeholder="Enter your Mob no :" type="radio" name="gen" id="female">
+
+               <label style="font-size: larger;margin-left: 8px;margin-top: 30px;" for="other">Other</label>
+               <input placeholder="Enter your Mob no :" type="radio" name="gen" id="other">
 
 
-    <div style="background-image: linear-gradient(rgb(194, 149, 14), white);margin: auto;border: 1px solid black;padding-top: 0px;height: 400px;width: 50%;">
+               <br><br>
 
-        <h2 align="center">Login Here !!</h2>
+               <label style="font-size: larger;margin-left: 180px;margin-top: 30px;" for="age">Age : </label>
+               <input placeholder=" Age :" type="number" name="" id="age" min="18" max="60">
 
-     <label style="font-size: larger;margin-left: 180px;margin-top: 30px;" for="name">Name : </label>
-     <input  placeholder="Enter your name :" type="text" name="" id="name">
+               <br><br>
 
-<br><br>
+               <button class="btn"
+                    style="margin-left: 180px;padding-left: 30px;padding-right: 30px;margin-top: 15px;border-radius:20px;"
+                    type="reset">Reset</button>
+               <button class="btn"
+                    style="margin-left: 25px;padding-left: 30px;padding-right: 30px;margin-top: 15px;border-radius:20px;"
+                    type="submit">Submit</button>
 
- <label style="font-size: larger;margin-left: 180px;margin-top: 30px;" for="email">Email : </label>
-     <input  placeholder="Enter your Email :" type="email" name="" id="email">
+          </div>
 
-<br><br>
-
-<label style="font-size: larger;margin-left: 180px;margin-top: 30px;" for="password">Password : </label>
-     <input  placeholder="Enter your Email :" type="password" name="" id="password">
-
-<br><br>
-
-<label style="font-size: larger;margin-left: 180px;margin-top: 30px;" for="password">Mob no : </label>
-     <input  placeholder="Enter your Mob no :" type="number" name="" id="password">
-
-<br><br>
-
-<label style="font-size: larger;margin-left: 180px;margin-top: 30px;" >Gender : </label><br>
-
-<label style="font-size: larger;margin-left: 220px;margin-top: 30px;" for="Gender">Male</label>
-     <input  placeholder="Enter your Mob no :" type="radio" name="gen" id="Gender">
-
-<label style="font-size: larger;margin-left: 8px;margin-top: 30px;" for="female">Female</label>
-     <input  placeholder="Enter your Mob no :" type="radio" name="gen" id="female">
-
-<label style="font-size: larger;margin-left: 8px;margin-top: 30px;" for="other">Other</label>
-     <input  placeholder="Enter your Mob no :" type="radio" name="gen" id="other">
-
-
-<br><br>
-
- <label style="font-size: larger;margin-left: 180px;margin-top: 30px;" for="age">Age : </label>
-     <input  placeholder=" Age :" type="number" name="" id="age" min="18" max="60">
-
-<br><br>
-
- <button  class="btn" style="margin-left: 180px;padding-left: 30px;padding-right: 30px;margin-top: 15px;border-radius:20px;" type="reset">Reset</button>
-     <button class="btn" style="margin-left: 25px;padding-left: 30px;padding-right: 30px;margin-top: 15px;border-radius:20px;" type="submit">Submit</button>
-
-</div>
-
-
+     </form>
 
 
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
